@@ -6,11 +6,13 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     //BEM
     <Router>
+      <Sidebar/>
       <Switch>
         <Navbar/>
       </Switch>
