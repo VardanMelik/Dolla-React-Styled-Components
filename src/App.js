@@ -1,21 +1,17 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
+import Home from './pages';
 
 function App() {
   return (
     //BEM
     <Router>
-      <Sidebar/>
-      <Switch>
-        <Navbar/>
-      </Switch>
+      <Home/>
     </Router>
   );
 }
